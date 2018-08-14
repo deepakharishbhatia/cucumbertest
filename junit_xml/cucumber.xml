@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="265.658861">
+<testcase classname="Login on EAG" name="Successful login on EAG" time="265.658861">
+<system-out><![CDATA[Given User navigates to EAG portal..........................................passed
+And enters the username.....................................................passed
+And enters the password.....................................................passed
+And click on Login Button...................................................passed
+Then User is able to login successfully.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Successful login on EAG",
+        "description": "",
+        "id": "login-on-eag;successful-login-on-eag",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 113333449807,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User navigates to EAG portal",
+            "match": {
+              "location": "Login.user_navigates_to_EAG_portal()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3421767145,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enters the username",
+            "match": {
+              "location": "Login.enters_the_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 766279617,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enters the password",
+            "match": {
+              "location": "Login.enters_the_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138432954970,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on Login Button",
+            "match": {
+              "location": "Login.click_on_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9704408997,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is able to login successfully",
+            "match": {
+              "location": "Login.user_is_able_to_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login on EAG",
+    "description": "",
+    "id": "login-on-eag",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
